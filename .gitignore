@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# pytest / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project-specific: large media files and generated thumbnails
+data/input/*
+data/output/*
+temp/*
+!data/input/.gitkeep
+!data/output/.gitkeep
+!temp/.gitkeep
+
+# RAW camera files
+*.CR2
+*.CR3
+*.cr2
+*.cr3
+*.NEF
+*.ARW
