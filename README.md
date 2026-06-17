@@ -112,16 +112,16 @@ autoburstfilter --input data/input --top 5
 Example output:
 
 ```
-🔍  Scanning: data/input
+ Scanning: data/input
 
 Rank   Score    Filename
 --------------------------------------------------
-🏆    2341.8   IMG_0042.CR3
+#1    2341.8   IMG_0042.CR3
 #2    1876.4   IMG_0041.CR3
 #3     923.1   IMG_0043.CR3
 #4     412.7   IMG_0040.CR3
 
-✅  Champion exported → data/output/IMG_0042.CR3
+ Champion exported → data/output/IMG_0042.CR3
 ```
 
 ### Desktop GUI
@@ -201,7 +201,7 @@ pytest
 
 ## Acknowledgements
 
-Developed as a course project for **CS F311 – Computer Vision** at BITS Pilani,
+Developed as a course project for **CS F311 – Digital Image Processing** at BITS Pilani,
 under the guidance of Dr. Tojo Mathew.
 
 ---
